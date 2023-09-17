@@ -21,14 +21,16 @@
     <div class="headerfirst">
         <div class="container">
             <div class="up">
-                <a href="#"><img src="./img/phone-icon.png" alt="phone"></a>
-                <a href="#">+(11)123 456 7890</a>
-                <div class="line" target="line">
-                    <a href="#"><img src="./img/clock-icon.png" alt="clock"></a>
-                    <a href="#">Sun - Mon:9.00am to 7:00pm</a>
+                <div class="information">
+                    <a href="#"><img src="./img/phone-icon.png" alt="phone"></a>
+                    <a href="#">+(11)123 456 7890</a>
+                    <div class="line" target="line">
+                        <a href="#"><img src="./img/clock-icon.png" alt="clock"></a>
+                        <a href="#">Sun - Mon:9.00am to 7:00pm</a>
+                    </div>
+                    <a href="#"><img src="./img/message-icon.png" alt="message box"></a>
+                    <a href="#">info @printshop.com</a>
                 </div>
-                <a href="#"><img src="./img/message-icon.png" alt="message box"></a>
-                <a href="#">info @printshop.com</a>
                 <div class="icons">
                     <a href="#"><i class="fa-brands fa-facebook-f" id="icoons"></i></a>
                     <a href="#"><i class="fa-brands fa-twitter" id="icoons" style="color: #ffffff;"></i></a>
@@ -65,8 +67,15 @@
                     </div>
                 </div>
                 <div class="mobilenav">
-                    <div class="logo">
-                        <a href="#"><img src="./img/logo.png" alt="logo"></a>
+                    <div class="barclass">
+
+                        <div class="logo">
+                            <a href="#"><img src="./img/logo.png" alt="logo"></a>
+                        </div>
+
+                        <div class="mobilebar">
+                            <a href="javascript:void(0);" id="bars"><i class="fa-solid fa-bars" style="color: #000;"></i></a>
+                        </div>
                     </div>
                     <div class="monav">
                         <ul>
@@ -201,7 +210,7 @@
                     </div>
                 </div>
             </div>
-            
+
 
         </div>
     </div>
@@ -355,6 +364,10 @@
                 // prevArrow: '<i class="fa-solid fa-arrow-left-long"></i>',
                 // nextArrow: '<i class="fa-solid fa-arrow-right-long"></i>'
                 arrows: false
+            });
+
+            $("#bars").click(function () {
+                $(".monav").slideToggle("slow");
             });
         });
     </script>
