@@ -476,6 +476,19 @@ h3 {
 .headerfirst{
     display: none;
 }
+
+.monav #icoons{
+    color: #f65aa7;
+}
+
+.monav .icans{
+    display: flex;
+    gap: 15px;
+}
+
+.barclass .logo img{
+    width: 80%;
+}
 @media only screen and (min-width: 375px) {
     .container {
         padding: 0 35px;
@@ -539,6 +552,10 @@ h3 {
         font-weight: 700;
     }
 
+    
+.barclass .logo img{
+    width: 80%;
+}
 }
 
 
