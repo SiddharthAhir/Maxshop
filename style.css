@@ -164,7 +164,7 @@
 
 .content {
     text-align: left;
-    margin-left: 405px;
+    margin-left: 3px;
 }
 
 .main-slider .slider p {
@@ -210,7 +210,7 @@
 
 .sleek-slider .content h2,
 h3 {
-    font-size: 42px;
+    font-size: 30px;
 }
 
 .sleek-slider .content h3 {
@@ -298,6 +298,7 @@ h3 {
     font-size: 23px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
+    padding-top: 70px;
 }
 
 .sep::before {
@@ -483,6 +484,19 @@ h3 {
         width: 270px;
     }
 
+    .content {
+        text-align: left;
+        margin-left: 25px;
+    }
+
+}
+
+@media only screen and (min-width: 425px){
+    .content {
+        text-align: left;
+        margin-left: 52px;
+    }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -508,6 +522,20 @@ h3 {
     .sleek-slider .content h2,
     h3 {
         font-size: 38px;
+    }
+
+    .second-part h1 {
+        font-size: 33px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        padding-top: 70px;
+    }
+
+    .first-part h1 {
+        padding-top: 144px;
+        font-size: 33px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
     }
 
 }
@@ -817,6 +845,7 @@ h3 {
         font-size: 44px;
         font-family: 'Roboto', sans-serif;
         font-weight: 700;
+        /* padding-top: 70px; */
     }
 
     .sep::before {
