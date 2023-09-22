@@ -508,6 +508,21 @@ h3 {
     color: #fff;
 }
 
+.up .fa-brands, .fab{
+    color: #fff;
+}
+.up .fa-solid, .fab{
+    color: #fff;
+}
+
+.fa-solid:hover{
+    color: #f65aa7;
+}
+
+.up .fa-brands:hover{
+    color: #f65aa7;
+}
+
 
 
 @media only screen and (min-width: 375px) {
@@ -873,6 +888,10 @@ h3 {
     .first-part .card p:last-child {
         padding-bottom: 33px;
     }
+
+    /* a .cardsss:hover{
+        background-color: #f65aa7;
+    } */
 
     /* SECOND-PART */
     .second-part {
