@@ -180,7 +180,7 @@
 
 .button a {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
     color: #fff;
     padding: 17px 19px;
@@ -508,18 +508,21 @@ h3 {
     color: #fff;
 }
 
-.up .fa-brands, .fab{
-    color: #fff;
-}
-.up .fa-solid, .fab{
+.up .fa-brands,
+.fab {
     color: #fff;
 }
 
-.fa-solid:hover{
+.up .fa-solid,
+.fab {
+    color: #fff;
+}
+
+.fa-solid:hover {
     color: #f65aa7;
 }
 
-.up .fa-brands:hover{
+.up .fa-brands:hover {
     color: #f65aa7;
 }
 
@@ -537,6 +540,10 @@ h3 {
     .content {
         text-align: left;
         margin-left: 25px;
+    }
+
+    .fa-regular fa-heart:hover{
+        color: #f65aa7;
     }
 
 }
@@ -600,7 +607,7 @@ h3 {
     .container {
         padding: 0px 70px;
     }
-    
+
     .sleek-slider {
         width: 100%;
         height: 100%;
@@ -773,7 +780,7 @@ h3 {
         font-size: 16px;
     }
 
-        .main-slider .slider2 p {
+    .main-slider .slider2 p {
         color: #fff;
         font-size: 16px;
     }
@@ -1014,10 +1021,6 @@ h3 {
     .fa-heart:hover {
         background-color: #f65aa7;
     }
-
-    /* #icoons:hover{
-        background-color: #f65aa7;
-    } */
 
     .mobilenav {
         display: none;
